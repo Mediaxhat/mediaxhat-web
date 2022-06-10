@@ -7,13 +7,13 @@ function NavBar() {
     <><Navbar bg="light" variant="light" expand="lg" sticky="top">
       <Container>
         <Navbar.Brand href="/">
-          <img src={logo} width="50" height="50" alt="Logo"></img>
+          <img src={logo} width="30" height="30" alt="Logo"></img>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="#link">Link</Nav.Link>
+            <Nav.Link href="/#absec">About</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

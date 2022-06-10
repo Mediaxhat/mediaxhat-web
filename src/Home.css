@@ -10,13 +10,13 @@
 
 }
 .transbox {
-    opacity: 0.7;
+    opacity: 0.8;
     background-color: #ffffff;
     height: inherit;
     text-align: center;
     font-size: 20vmax;
 }
-#title {
+.title {
     font-size: 8vmax;
     font-family: 'Dancing Script', cursive;
 }
@@ -28,7 +28,13 @@
     background-size: cover;
     width: 100%;
 }
-#code {
-    font-size: 8vmax;
-    font-family: 'Dancing Script', cursive;
+#absec {
+    background-image: url("absec.jpg");
+    height: 1000px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
 }
+
