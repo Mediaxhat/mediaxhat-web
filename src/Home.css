@@ -20,14 +20,6 @@
     font-size: 8vmax;
     font-family: 'Dancing Script', cursive;
 }
-#open {
-    background-image: url("open.jpg");
-    height: 900px;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-}
 #absec {
     background-image: url("absec.jpg");
     height: 1000px;

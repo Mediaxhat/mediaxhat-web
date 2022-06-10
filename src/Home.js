@@ -11,14 +11,6 @@ function Home() {
                     <Button variant="primary">Try the Chat</Button>
                 </div>
             </div>
-            <div id="open">
-                <div className="transbox">
-                    <h1 className="title">Open source </h1>
-                    <i className="bi bi-file-earmark-code-fill"></i>
-                    <br></br>
-                    <Button variant="primary">View code</Button>
-                </div>
-            </div>
             <div id="absec">
                 <div className="transbox">
                     <h1 className="title">About Us</h1>
