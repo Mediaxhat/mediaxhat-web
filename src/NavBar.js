@@ -1,7 +1,7 @@
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import logo from "./M.png"
+import logo from "./M.png";
 function NavBar() {
   return (
     <><Navbar bg="light" variant="light" expand="lg" sticky="top">
@@ -15,10 +15,10 @@ function NavBar() {
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/#absec">About</Nav.Link>
           </Nav>
-        <Nav className="ms-auto">
-          <Nav.Link href="/">Signup</Nav.Link>
-          <Nav.Link href="/">login</Nav.Link>
-        </Nav>
+          <Nav className="ms-auto">
+            <Nav.Link href="#signup">Signup</Nav.Link>
+            <Nav.Link href="/login">Login</Nav.Link>
+          </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>
