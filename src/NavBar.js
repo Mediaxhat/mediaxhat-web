@@ -15,6 +15,10 @@ function NavBar() {
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/#absec">About</Nav.Link>
           </Nav>
+        <Nav className="ms-auto">
+          <Nav.Link href="/">Signup</Nav.Link>
+          <Nav.Link href="/">login</Nav.Link>
+        </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>
