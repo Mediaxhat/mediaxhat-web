@@ -16,7 +16,7 @@ function NavBar() {
             <Nav.Link href="/#absec">About</Nav.Link>
           </Nav>
           <Nav className="ms-auto">
-            <Nav.Link href="#signup">Signup</Nav.Link>
+            <Nav.Link href="/signup">Signup</Nav.Link>
             <Nav.Link href="/login">Login</Nav.Link>
           </Nav>
         </Navbar.Collapse>

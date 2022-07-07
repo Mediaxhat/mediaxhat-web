@@ -5,17 +5,19 @@ function Home() {
         <>
             <div id="intro">
                 <div className="transbox">
-                    <h1 className="title">A Re-defined Chat focused on privacy</h1>
+                    <h1 className="title">A Re-defined Chat focused on privacy<span id="icon"></span></h1>
                     <i className="bi bi-lock-fill"></i>
+                    <br></br>
                     <Button variant="primary">Try the Chat</Button>
                 </div>
             </div>
-            <div id="absec">
+            <div id="opensc">
                 <div className="transbox">
-                    <h1 className="title">About Us</h1>
-                    <Button variant="primary">Contact</Button>
+                    <h1 className="title">Open source<br></br><span id="icon"><i className="bi bi-file-earmark-code-fill"></i></span></h1>
+                    <Button variant="primary">View code</Button>
                 </div>
             </div>
+
         </>
     );
 }

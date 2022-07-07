@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 #intro{
     background-image: url("intro.jpg");
-    height: 1000px;
+    height: 1200px;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -20,13 +20,15 @@
     font-size: 8vmax;
     font-family: 'Dancing Script', cursive;
 }
-#absec {
+#opensc {
     background-image: url("absec.jpg");
-    height: 1000px;
+    height: 800px;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     width: 100%;
     background-repeat: no-repeat;
 }
-
+#icon {
+    font-size: 20vmax;
+}
