@@ -1,20 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 #intro{
     background-image: url("intro.jpg");
-    height: 1200px;
+    height: 800px;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     width: 100%;
     background-repeat: no-repeat;
+    text-align: center;
 
 }
 .transbox {
     opacity: 0.8;
     background-color: #ffffff;
     height: inherit;
-    text-align: center;
-    font-size: 20vmax;
 }
 .title {
     font-size: 8vmax;
@@ -28,7 +27,17 @@
     background-size: cover;
     width: 100%;
     background-repeat: no-repeat;
+    text-align: center;
 }
-#icon {
+.icon {
     font-size: 20vmax;
+}
+#about {
+    background-image: url("absec.jpg");
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
 }
