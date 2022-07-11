@@ -1,4 +1,3 @@
-# mediaxhat-web
+# Mediaxhat-web
 
-Currently this project is still under devlopment
-
+Mediaxhat web contains all the front end code that is still under devlopment.

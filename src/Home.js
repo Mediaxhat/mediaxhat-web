@@ -20,6 +20,11 @@ function Home() {
                         <Button variant="primary">View code</Button>
                     </div>
                 </div>
+                <div id="about">
+                    <h1 className="title">About</h1>
+                    <p> Mediaxhat is devloped by Akash k</p>
+                    <p> For inquires please email: akash.kallumkal@gmail.com </p>
+                </div>
             </NoInternet>
         </>
     );
