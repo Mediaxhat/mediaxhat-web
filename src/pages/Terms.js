@@ -1,5 +1,5 @@
 import "./NoInternet";
-import NoInternet from "./NoInternet";
+import NoInternet from "./pages/NoInternet";
 
 function Terms() {
     return (

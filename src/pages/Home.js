@@ -1,7 +1,7 @@
 import Button from "react-bootstrap/Button";
-import "./Home.css";
-import "./NoInternet";
-import NoInternet from "./NoInternet";
+import "./css/Home.css";
+import "./pages/NoInternet";
+import NoInternet from "./pages/NoInternet";
 function Home() {
     return (
         <>
