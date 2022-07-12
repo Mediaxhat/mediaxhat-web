@@ -1,8 +1,8 @@
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import logo from "./media/M.png";
-import "./css/NavBar.css"
+import logo from ".//media/M.png";
+import "./NavBar.css"
 function NavBar() {
   return (
     <><Navbar bg="light" variant="light" expand="lg" sticky="top">

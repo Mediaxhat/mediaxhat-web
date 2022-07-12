@@ -6,11 +6,11 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import NavBar from "./pages/NavBar";
-import Home from "./pages/Home";
-import Login  from "./pages/Login";
-import Signup from "./pages/Signup";
-import Terms from "./pages/Terms";
+import NavBar from "./NavBar";
+import Home from "./Home";
+import Login  from "./Login";
+import Signup from "./Signup";
+import Terms from "./Terms";
 const root = ReactDOM.createRoot(
   document.getElementById("root")
 );
