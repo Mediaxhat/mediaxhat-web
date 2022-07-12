@@ -1,7 +1,7 @@
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import { Container } from "react-bootstrap";
-import NoInternet from "./pages/NoInternet";
+import NoInternet from "./NoInternet";
 function Login() {
     return (
         <>
@@ -21,6 +21,7 @@ function Login() {
                             Submit
                         </Button>
                     </Form>
+                    <br></br>
                     <p>Don't have an account go to <a href="/signup">Signup</a></p>
                 </Container>
             </NoInternet>
