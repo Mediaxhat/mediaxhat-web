@@ -1,22 +1,31 @@
 import Form from "react-bootstrap/Form";
-import Button from "react-bootstrap/Button";
+import InputGroup from 'react-bootstrap/InputGroup';
 import { Container } from "react-bootstrap";
 import NoInternet from "./NoInternet";
+import Button from "react-bootstrap/Button";
+
 function Login() {
     return (
         <>
             <NoInternet>
                 <Container>
                     <Form>
-                        <Form.Group className="mb-3" controlId="formBasicEmail">
-                            <Form.Label>Email address</Form.Label>
-                            <Form.Control type="email" placeholder="name@example.com" required />
-                        </Form.Group>
-
-                        <Form.Group className="mb-3" controlId="formBasicPassword">
-                            <Form.Label>Password</Form.Label>
-                            <Form.Control type="password" placeholder="Password" required />
-                        </Form.Group>
+                        <InputGroup className="mb-3">
+                            <InputGroup.Text id="basic-addon1">Email</InputGroup.Text>
+                            <Form.Control
+                                placeholder="example@example.com"
+                                aria-label="example@example.com"
+                                aria-describedby="basic-addon1"
+                            />
+                        </InputGroup>
+                        <InputGroup className="mb-3">
+                            <InputGroup.Text id="basic-addon1">Password</InputGroup.Text>
+                            <Form.Control
+                                placeholder="*******"
+                                aria-label="*******"
+                                aria-describedby="basic-addon1"
+                            />
+                        </InputGroup>
                         <Button variant="primary" type="submit">
                             Submit
                         </Button>
