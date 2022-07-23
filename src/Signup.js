@@ -2,10 +2,7 @@ import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import { Container } from "react-bootstrap";
 import NoInternet from "./NoInternet";
-<<<<<<< HEAD
-=======
 import InputGroup from 'react-bootstrap/InputGroup';
->>>>>>> 34b365eccc191dc5893fc3b4bf47aff737924333
 function Signup() {
     return (
         <>

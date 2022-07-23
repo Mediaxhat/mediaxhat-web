@@ -2,11 +2,7 @@ import Form from "react-bootstrap/Form";
 import InputGroup from 'react-bootstrap/InputGroup';
 import { Container } from "react-bootstrap";
 import NoInternet from "./NoInternet";
-<<<<<<< HEAD
-=======
 import Button from "react-bootstrap/Button";
-
->>>>>>> 34b365eccc191dc5893fc3b4bf47aff737924333
 function Login() {
     return (
         <>
