@@ -1,7 +1,7 @@
 import Form from "react-bootstrap/Form";
 import InputGroup from 'react-bootstrap/InputGroup';
 import { Container } from "react-bootstrap";
-import NoInternet from "./NoInternet";
+import NoInternet from "../Components/NoInternet";
 import Button from "react-bootstrap/Button";
 function Login() {
     return (

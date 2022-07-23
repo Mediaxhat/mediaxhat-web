@@ -1,4 +1,4 @@
-import NoInternet from "./NoInternet";
+import NoInternet from "../Components/NoInternet";
 
 function Terms() {
     return (
