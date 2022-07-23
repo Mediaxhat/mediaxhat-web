@@ -1,7 +1,7 @@
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import { Container } from "react-bootstrap";
-import NoInternet from "./pages/NoInternet";
+import NoInternet from "./NoInternet";
 function Signup() {
     return (
         <>
